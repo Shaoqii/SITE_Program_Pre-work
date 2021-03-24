@@ -64,7 +64,7 @@ I used W3School to help me with some optional features.
 The video recording was kind of difficult. I use windows system so I do not have quick time. 
 I used windows's game center. I took some time to read through instructions about windows screen recording.
 I also had to record several times because there are always somethings going off in every recording. 
-I solved it be split the demonstration into pieces to record, so I only need to record a small part if something goes wrong on that part. 
+I solved it by split the demonstration into pieces to record, so I only need to record a small part if something goes wrong on that part. 
 
 I followed website instruction, so I copy paste README.md to glitch repository, but the instructor on video opened hackmd.
 The instructor was able to just drag the gif to upload it to his README.md on hackmd, but I need to search up how to upload gif in glitch and follow instructions.
