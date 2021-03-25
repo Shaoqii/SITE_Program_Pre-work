@@ -41,9 +41,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-This gif shows game button's light up and the randomness of clue's pattern: https://cdn.glitch.com/335acbec-a8c9-449a-a3fa-0687c822d76d%2Fintro1.gif?v=1616492449964
+This gif shows game button's light up and the randomness of clue's pattern: 
+https://cdn.glitch.com/335acbec-a8c9-449a-a3fa-0687c822d76d%2Fintro1.gif?v=1616492449964
 
-This gif shows the display of palyer's live left, update of live count, lost game after made 3 mistakes in total, and reset live to 3 when click on start button: https://cdn.glitch.com/335acbec-a8c9-449a-a3fa-0687c822d76d%2Fintro2.gif?v=1616492452734
+This gif shows the display of palyer's live left, update of live count, lost game after made 3 mistakes in total, and reset live to 3 when click on start button: 
+https://cdn.glitch.com/335acbec-a8c9-449a-a3fa-0687c822d76d%2Fintro2.gif?v=1616492452734
 
 Below are 3 gifs for going through a winning game and the rest of features, they were recording as a one and half minutues video:
 
@@ -55,12 +57,13 @@ As you can see, the play back speeds up on each turn, and I made a mistake but e
 
 
 ## Reflection Questions
-**1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. **
+**1.** If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
 I used W3School to help me with some optional features.
 
-**2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) **
+**2.** What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
+During the process of creating submission, I found following steps kind of challenging.
 The video recording was kind of difficult. I use windows system so I do not have quick time. 
 I used windows's game center. I took some time to read through instructions about windows screen recording.
 I also had to record several times because there are always somethings going off in every recording. 
@@ -70,30 +73,31 @@ I followed website instruction, so I copy paste README.md to glitch repository, 
 The instructor was able to just drag the gif to upload it to his README.md on hackmd, but I need to search up how to upload gif in glitch and follow instructions.
 I did not know that ezgif would have maximum time limit for converting gif so I had to cut my video. As you can see, I have 2 gif link for some features written above, and I cut the process of winning into 3 gif hyperlinks.
 I used github before, so I did not meet any challenge for this step. 
-All in all, instructions provided were very helpful and detailed, thank you!
+All in all, submission instructions and video provided were very helpful and detailed, thank you!
 
-
-
-**3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) **
+**3.** What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
 I used document.getElementById("liveCount").innerHTML to do the user live count update, but there is some delay. 
 For example, when the user lost all 3 lives, the alert would pop before updating user they have 0 live now. 
 I know how to fix similar issue in react, but I don't know how to fix this in glitch. 
 
-I also want to learn more details about how the game button sounds came from. 
+I also want to learn more details about where the game button sounds came from. 
 For example, what context.createOscillator() and context.createGain() each does, and how we used them to make sounds. 
 setTargetAtTime and setValueAtTime seem have something to do with time, what are their similarities and differences from setTimeout?
 
-**4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) **
+So far, this web app only has front end and doesn't save player's progress. 
+What should I do to save user's progress such that players will start at where they stopped if they click start button after stop button?
+This game seems simple now, but I think we can let users to create their accounts and compete with their friends. How would we achieve such features on glitch? 
+
+**4.** If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
 
 I would probability spend more time on researching short music piece and use them as my pattern since the random generated pattern doesn't sounds that good.
 I don't play any instrument so it was hard for me to come up any music piece with less than 8 cues. 
 
 I also want to do the feature that user has a limited amount of time to enter their guess on each turn if I have more time. 
-I tried several times by using setInterval and clearInterval, but the come come was not ideal, so I deleted this feature. 
+I tried several times by using setInterval and clearInterval, but the outcome was not ideal, so I deleted this feature. 
 I also tried to do game button appearance change goes beyond color (e.g. add an image) feature, it worked out but doesn't look pretty so I deleted it. 
 If I had more time, I would probability search for a set of simple music node for different cue and use them as my game button appearance change.
-
 
 
 ## License
